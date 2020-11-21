@@ -1,5 +1,5 @@
 import * as cdk from '@aws-cdk/core';
-import { Group, Policy, ManagedPolicy, User } from '@aws-cdk/aws-iam';
+import { Group, ManagedPolicy, User } from '@aws-cdk/aws-iam';
 
 const admins = 'AdminGroup';
 const adminUsers = [
